@@ -13,9 +13,12 @@
     jobTitle: job-name-centcomm-intern
     jobIcon: JobIconNanotrasen
   - type: Access
+    groups:
+    - AllAccess
     tags:
     - CentralCommand
     - NanotrasenRepresentative
+    - BlueshieldOfficer
 
 - type: entity
   parent: IDCardStandard
