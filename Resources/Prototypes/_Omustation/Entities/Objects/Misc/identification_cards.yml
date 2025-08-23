@@ -21,7 +21,7 @@
   parent: IDCardStandard
   id: ExecutiveInternIDCard
   name: executive intern access card
-  description: The owner of this ID just barely qualifies to work at Central Command, listening to their orders is suggested, but not required. Refer to CentComm if you need further verification.
+  description: The owner of this ID just barely qualifies to work at Central Command, listening to their orders is suggested, but not required. Refer to Central Command if you need further verification.
   components:
   - type: Sprite
     sprite: _Omustation/Objects/Misc/executiveintern.rsi
