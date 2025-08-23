@@ -30,11 +30,11 @@
     eyes: ClothingEyesGlassesCentComm 
     gloves: ClothingHandsGlovesHeavyGoldenTrim 
     back: ClothingBackpackSatchelLeather 
+    belt: BoxFolderCentComClipboard
     neck: ExecutiveInternIDCard 
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
-    pocket1: BoxFolderCentCom
+    pocket1: RubberStampCentcomIntern
   storage:
     back:
     - HandheldFaxCentCommIntern
-    - BoxFolderCentComClipboard
