@@ -1,0 +1,58 @@
+- type: selectableSet
+  id: DutyWeaponSelectMk58Lethal
+  name: selectable-set-duty-weapon-mk58-lethal-name
+  description: selectable-set-duty-weapon-mk58-lethal-desc
+  sprite:
+    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - WeaponPistolMk58Empty
+  - MagazinePistol
+  - MagazinePistol
+
+- type: selectableSet
+  id: DutyWeaponSelectSvalinn
+  name: selectable-set-duty-weapon-svalinn-name
+  description: selectable-set-duty-weapon-svalinn-desc
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - WeaponLaserSvalinn
+  - PowerCellSmall
+  - PowerCellSmall
+
+- type: selectableSet
+  id: BrigmedicWeaponSelectBrigmedicDisabler
+  name: selectable-set-brigmedic-weapon-brigmedic-disabler-name
+  description: selectable-set-brigmedic-weapon-brigmedic-disabler-desc
+  sprite:
+    sprite: _Omustation/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - WeaponBrigmedicDisabler
+
+- type: selectableSet
+  id: WardenWeaponSelectEnergyShotgun
+  name: selectable-set-warden-weapon-energy-shotgun-name
+  description: selectable-set-warden-weapon-energy-shotgun-desc
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - WeaponEnergyShotgun
+
+- type: selectableSet
+  id: WardenWeaponSelectEnergyShotgun
+  name: selectable-set-warden-weapon-krav-maga-name
+  description: selectable-set-warden-weapon-krav-maga-desc
+  sprite:
+    sprite: _Goobstation/Clothing/Hands/Gloves/kravgloves.rsi
+    state: icon
+  content:
+  - EffectDutyWeaponPrint
+  - ClothingHandsGlovesKravMaga

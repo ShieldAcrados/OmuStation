@@ -1,0 +1,28 @@
+- type: entity
+  name: Brigmedic Disabler
+  parent: WeaponDisabler
+  id: WeaponBrigmedicDisabler
+  description: A modified version of the regular disabler, featuring self recharge, increased capacity, and a fresh coat of paint.
+  components:
+  - type: Sprite
+    sprite: _Omustation/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-0
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: Clothing
+    sprite: _Omustation/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
+    quickEquip: false
+    slots:
+      - suitStorage
+      - Belt
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 25
+    autoRechargePause: true
+    autoRechargePauseTime: 30
+  - type: Battery
+    maxCharge: 750
+    startingCharge: 750

@@ -112,7 +112,7 @@
   equipment:
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetAltSecurityRegular # Goobstation
-    pocket1: WeaponPistolMk58
+    pocket1: SecurityWeaponUndetermined # Omustation
   storage:
     back:
     - Flash

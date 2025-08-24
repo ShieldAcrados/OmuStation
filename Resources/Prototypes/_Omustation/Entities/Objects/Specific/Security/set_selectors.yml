@@ -1,0 +1,43 @@
+- type: entity
+  id: SecurityWeaponUndetermined
+  name: DCD-S00
+  description: A small, disposable matter constructer designed to print one of several Duty Weapons available to NanoTrasen security, once. 
+  parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
+  components:
+  - type: Sprite
+    sprite: _Omustation/Objects/Specific/Security/securityundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - DutyWeaponSelectMk58Lethal
+    - DutyWeaponSelectSvalinn
+    maxSelectedSets: 1
+
+- type: entity
+  id: BrigmedicWeaponUndetermined
+  name: DCD-BM12
+  description: Marginally more expensive than the S00 model, the Brigmedic variant of the DCD series allows for the selection of several less-lethal weapons for the brigmedic.
+  parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
+  components:
+  - type: Sprite
+    sprite: _Omustation/Objects/Specific/Security/brigmedicundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - BrigmedicWeaponSelectBrigmedicDisabler
+    maxSelectedSets: 1
+
+- type: entity
+  id: WardenWeaponUndetermined
+  name: DCD-W07
+  description: 
+  parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
+  components:
+  - type: Sprite
+    sprite: _Omustation/Objects/Specific/Security/wardenundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - DutyWeaponSelectSvalinn
+    - WardenWeaponSelectEnergyShotgun
+    maxSelectedSets: 2
