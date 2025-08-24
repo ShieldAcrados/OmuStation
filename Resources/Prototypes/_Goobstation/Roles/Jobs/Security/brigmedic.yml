@@ -20,19 +20,22 @@
   supervisors: job-supervisors-hos
   canBeAntag: false
   goobcoins: 35
-  access: # intentionally no medical access, not even hos has it, ask chemists instead of silently stealing meds
+  access:
   - Security
   - Brig
   - Maintenance
   - Service
   - External
+  - Medical # Omustation
   - Cryogenics
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
-    components: # Intentionally no surgery buff, you're reliable but not powerful as a real doctor
+    components:
     - type: SecurityStaff
+    - type: SurgerySpeedModifier # Omustation
+      speedModifier: 1.25
 
 - type: chameleonOutfit
   id: BrigmedicChameleonOutfit
@@ -40,7 +43,7 @@
   equipment:
     eyes: ClothingEyesGlassesMed
     mask: ClothingMaskBreathMedicalSecurity
-    ears: ClothingHeadsetBrigmedic
+    ears: ClothingHeadsetAltBrigmedic # Omustation
     outerClothing: ClothingOuterCoatAMG
     gloves: ClothingHandsGlovesColorWhite
     jumpsuit: ClothingUniformJumpsuitBrigmedic

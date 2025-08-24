@@ -198,7 +198,7 @@
     head: ClothingHeadHelmetSwat
     mask: ClothingMaskGasSwat
     outerClothing: ClothingOuterArmorBasicSlim
-    ears: ClothingHeadsetAltSecurityRegular # Goobstation
+    ears: ClothingHeadsetAltBrigmedic # Omustation
     gloves: ClothingHandsGlovesCombat
   storage:
     back:
@@ -236,11 +236,11 @@
 - type: startingGear
   id: BrigmedicGear
   equipment: # Heavily goob edited
-    eyes: ClothingEyesGlassesMed
+    eyes: ClothingEyesGlassesMedSec # Omustation
     id: BrigmedicPDA
-    ears: ClothingHeadsetAltSecurityRegular # Intentionally no medical channel
+    ears: ClothingHeadsetAltBrigmedic # Omustation
     belt: ClothingBeltMedicalEMTFilled
-    pocket1: WeaponDisabler
+    pocket1: BrigmedicWeaponUndetermined
   storage:
     back:
     - Flash

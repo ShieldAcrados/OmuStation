@@ -173,7 +173,7 @@
     eyes: ClothingEyesGlassesSecurity
     id: WardenPDA
     ears: ClothingHeadsetAltWarden # Goobstation
-    pocket1: WeaponPistolMk58
+    pocket1: WardenWeaponUndetermined # Omustation
   storage:
     back:
     - Flash

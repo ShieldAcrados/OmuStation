@@ -38,6 +38,5 @@
     state: icon
   - type: SetSelector
     possibleSets:
-    - DutyWeaponSelectSvalinn
     - WardenWeaponSelectEnergyShotgun
-    maxSelectedSets: 2
+    maxSelectedSets: 1

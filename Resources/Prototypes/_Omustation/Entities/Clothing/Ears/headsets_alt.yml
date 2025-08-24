@@ -1,0 +1,15 @@
+- type: entity
+  parent: [ClothingHeadsetAlt, BaseSecurityContraband]
+  id: ClothingHeadsetAltBrigmedic
+  name: Brigmedic over-ear headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+      - EncryptionKeyMedical
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/brigmedic.rsi
