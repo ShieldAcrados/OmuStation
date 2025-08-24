@@ -728,11 +728,7 @@ public sealed class AccessReaderSystem : EntitySystem
 
         // Omu - maybe its around their neck??
         if (_inventorySystem.TryGetSlotEntity(uid, "neck", out idUid))
-        {
             items.Add(idUid.Value);
-        }
-
-
 
         return items.Any();
     }
