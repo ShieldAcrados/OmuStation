@@ -32,7 +32,7 @@
     back: ClothingBackpackSatchelLeather 
     belt: BoxFolderCentComClipboard
     neck: ExecutiveInternIDCard 
-    id: CentcommInternPDA
+    id: CentCommInternPDA
     ears: ClothingHeadsetAltCentCom
     pocket1: RubberStampCentcomIntern
   storage:
