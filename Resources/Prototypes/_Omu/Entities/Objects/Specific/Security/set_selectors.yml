@@ -5,7 +5,7 @@
   parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
   components:
   - type: Sprite
-    sprite: _Omustation/Objects/Specific/Security/securityundetermined.rsi
+    sprite: _Omu/Objects/Specific/Security/securityundetermined.rsi
     state: icon
   - type: SetSelector
     possibleSets:
@@ -20,7 +20,7 @@
   parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
   components:
   - type: Sprite
-    sprite: _Omustation/Objects/Specific/Security/brigmedicundetermined.rsi
+    sprite: _Omu/Objects/Specific/Security/brigmedicundetermined.rsi
     state: icon
   - type: SetSelector
     possibleSets:
@@ -34,7 +34,7 @@
   parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
   components:
   - type: Sprite
-    sprite: _Omustation/Objects/Specific/Security/wardenundetermined.rsi
+    sprite: _Omu/Objects/Specific/Security/wardenundetermined.rsi
     state: icon
   - type: SetSelector
     possibleSets:

@@ -29,7 +29,7 @@
   name: selectable-set-brigmedic-weapon-brigmedic-disabler-name
   description: selectable-set-brigmedic-weapon-brigmedic-disabler-desc
   sprite:
-    sprite: _Omustation/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
+    sprite: _Omu/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
     state: base
   content:
   - EffectDutyWeaponPrint

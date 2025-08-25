@@ -5,7 +5,7 @@
   description: A modified version of the regular disabler, featuring self recharge, increased capacity, and a fresh coat of paint.
   components:
   - type: Sprite
-    sprite: _Omustation/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
+    sprite: _Omu/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -13,7 +13,7 @@
         map: ["enum.GunVisualLayers.MagUnshaded"]
         shader: unshaded
   - type: Clothing
-    sprite: _Omustation/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
+    sprite: _Omu/Objects/Weapons/Guns/Battery/brigmedicdisabler.rsi
     quickEquip: false
     slots:
       - suitStorage
