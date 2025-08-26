@@ -192,7 +192,7 @@
     id: HoSPDA
     #gloves: ClothingHandsGlovesCombat - Goobstation, moved to loadouts
     ears: ClothingHeadsetAltSecurity
-    pocket1: WeaponPistolMk58
+    pocket1: HeadOfSecurityWeaponUndetermined # Omu, just re-added goob's selector :godo:
   storage:
     back:
     - Flash

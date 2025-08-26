@@ -1,5 +1,5 @@
 - type: entity
-  name: Brigmedic Syringe Pistol
+  name: Brigmedic Syringe Gun
   parent: [ SyringeGun, BaseSecurityContraband ]
   id: BrigmedicSyringeGun
   description: A syringe gun repainted for the Brigmedic.
