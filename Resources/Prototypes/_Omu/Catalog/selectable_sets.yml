@@ -41,7 +41,7 @@
   description: selectable-set-brigmedic-weapon-brigmedic-syringe-gun-desc
   sprite:
     sprite: _Omu/Objects/Weapons/Guns/Cannons/brigmedic_syringe_gun.rsi
-    state: base
+    state: icon
   content:
   - EffectDutyWeaponPrint
   - BrigmedicSyringeGun

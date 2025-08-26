@@ -25,6 +25,7 @@
   - type: SetSelector
     possibleSets:
     - BrigmedicWeaponSelectBrigmedicDisabler
+    - BrigmedicWeaponSelectBrigmedicSyringeGun
     maxSelectedSets: 1
 
 - type: entity
