@@ -1,6 +1,6 @@
 - type: entity
   name: mk 58
-  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  parent: [WeaponPistolMk58, BaseSecurityContraband]
   id: WeaponPistolMk58Empty
   suffix: Empty
   components:

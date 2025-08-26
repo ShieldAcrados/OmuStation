@@ -19,6 +19,13 @@ selectable-set-brigmedic-weapon-brigmedic-disabler-desc =
     Power Regeneration capabilites, increased capacity, and a fresh coat of paint!
     WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
+selectable-set-brigmedic-weapon-brigmedic-syringe-gun-name = Brigmedic Syringe Gun
+selectable-set-brigmedic-weapon-brigmedic-syringe-gun-desc =
+    A fairly bog-standard syringe gun, albeit with a fresh coat of paint. While
+    basic, in the right hands, this can be more effective than an entire security
+    ERT. Comes with a box of 6 Pax-Filled syringes.
+    WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
+
 # Warden
 
 selectable-set-warden-weapon-energy-shotgun-name = Energy Shotgun

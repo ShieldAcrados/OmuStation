@@ -36,6 +36,18 @@
   - WeaponBrigmedicDisabler
 
 - type: selectableSet
+  id: BrigmedicWeaponSelectBrigmedicSyringeGun
+  name: selectable-set-brigmedic-weapon-brigmedic-syringe-gun-name
+  description: selectable-set-brigmedic-weapon-brigmedic-syringe-gun-desc
+  sprite:
+    sprite: _Omu/Objects/Weapons/Guns/Cannons/brigmedic_syringe_gun.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - BrigmedicSyringeGun
+  - BoxSyringePax
+
+- type: selectableSet
   id: WardenWeaponSelectEnergyShotgun
   name: selectable-set-warden-weapon-energy-shotgun-name
   description: selectable-set-warden-weapon-energy-shotgun-desc

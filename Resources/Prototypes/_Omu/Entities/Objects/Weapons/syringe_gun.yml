@@ -1,17 +1,14 @@
 - type: entity
   name: Brigmedic Syringe Pistol
-  parent: [ BaseSyringeGun, BaseSecurityContraband ]
-  id: BrigmedicSyringePistol
-  description: An illegally modified syringe gun that pierces the skin better and can fit in pockets.
+  parent: [ SyringeGun, BaseSecurityContraband ]
+  id: BrigmedicSyringeGun
+  description: A syringe gun repainted for the Brigmedic.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
-    layers:
-    - state: syringe_gun
-  - type: Item
-    size: Small
-    shape:
-    - 0,0,1,0
-    - 0,1,0,1
-  - type: SyringeGun
-    injectionSpeedMultiplier: 2
+    sprite: _Omu/Objects/Weapons/Guns/Cannons/brigmedic_syringe_gun.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Omu/Objects/Weapons/Guns/Cannons/brigmedic_syringe_gun.rsi
+    slots:
+    - back
+    - suitStorage
