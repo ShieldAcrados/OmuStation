@@ -1,3 +1,5 @@
+# Security
+
 - type: selectableSet
   id: DutyWeaponSelectMk58Lethal
   name: selectable-set-duty-weapon-mk58-lethal-name
@@ -24,6 +26,8 @@
   - PowerCellSmall
   - PowerCellSmall
 
+# Brigmedic
+
 - type: selectableSet
   id: BrigmedicWeaponSelectBrigmedicDisabler
   name: selectable-set-brigmedic-weapon-brigmedic-disabler-name
@@ -47,6 +51,8 @@
   - BrigmedicSyringeGun
   - BoxSyringePax
 
+# Warden
+
 - type: selectableSet
   id: WardenWeaponSelectEnergyShotgun
   name: selectable-set-warden-weapon-energy-shotgun-name
@@ -57,6 +63,17 @@
   content:
   - EffectDutyWeaponPrint
   - WeaponEnergyShotgun
+
+- type: selectableSet
+  id: WardenWeaponSelectRapidTrenchgun
+  name: selectable-set-warden-weapon-rapid-trenchgun-name
+  description: selectable-set-warden-weapon-energy-shotgun-desc
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - WeaponRevolverWardenRapidTrenchgun
 
 #- type: selectableSet
 #  id: WardenWeaponSelectKravMaga

@@ -35,9 +35,20 @@
     stealGroup: WeaponAntiqueLaser
   - type: GunSpreadModifier
     spread: 1.25
+  - type: AltFireMelee # copied from BaseWeaponPistol, Yw Cyg - Shield
+    attackType: Heavy
+  - type: MeleeWeapon
+    damage:
+      types:
+       Blunt: 8 # pistol whip
+    angle: 0
+    wideAnimationRotation: 90 # -90 if it takes bayonets (hits with muzzle) 90 if not (hits with butt)
+    soundHit:
+      collection: MetalThud # Goobstation ^
 
 - type: entity
-  name: \"RAPID\" Sawn-off Trenchgun
+  name: RAPID Sawn-off Trenchgun
+  description: A (LEGALLY) modified revolver-style shotgun, able to fit within coat pockets while dishing rapid damage. Takes 8 Gauge shells.
   parent: VulcanEightRevolver
   id: WeaponRevolverWardenRapidTrenchgun
   components:
@@ -48,6 +59,8 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+  - type: GunSpreadModifier
+    spread: 1
   - type: RevolverAmmoProvider
     whitelist:
       tags:
@@ -60,3 +73,13 @@
       path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+  - type: AltFireMelee # copied from BaseWeaponPistol
+    attackType: Heavy
+  - type: MeleeWeapon
+    damage:
+      types:
+       Blunt: 8 # pistol whip
+    angle: 0
+    wideAnimationRotation: 90 # -90 if it takes bayonets (hits with muzzle) 90 if not (hits with butt)
+    soundHit:
+      collection: MetalThud # Goobstation ^

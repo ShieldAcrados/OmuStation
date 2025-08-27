@@ -34,6 +34,9 @@ selectable-set-warden-weapon-energy-shotgun-desc =
     energy regeneration! The feared and respected icon of the Warden.
     WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
+selectable-set-warden-weapon-rapid-trenchgun-name = RAPID Sawn-Off Trenchgun
+selectable-set-warden-weapon-rapid-trenchgun-desc =
+
 # Deprecated
 
 selectable-set-warden-weapon-krav-maga-name = Krav Maga Gloves
