@@ -48,10 +48,14 @@
 
 - type: entity
   name: RAPID Sawn-off Trenchgun
-  description: A (LEGALLY) modified revolver-style shotgun, able to fit within coat pockets while dishing rapid damage. Takes 8 Gauge shells.
+  description: A (LEGALLY) modified revolver-style shotgun, able to fit within coat pockets while dishing rapid close range damage. Takes 8 Gauge shells.
   parent: VulcanEightRevolver
   id: WeaponRevolverWardenRapidTrenchgun
   components:
+  - type: item
+    size: Large
+    shape:
+    - 0,0,1,1
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 2

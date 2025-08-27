@@ -36,6 +36,10 @@ selectable-set-warden-weapon-energy-shotgun-desc =
 
 selectable-set-warden-weapon-rapid-trenchgun-name = RAPID Sawn-Off Trenchgun
 selectable-set-warden-weapon-rapid-trenchgun-desc =
+    A robust, compact 8 gauge revolver shotgun, capable of fitting within your
+    coat! With a powerful caliber and tight choke, the Rapid will rival even
+    the Energy Shotgun if used right.
+    WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
 # Deprecated
 

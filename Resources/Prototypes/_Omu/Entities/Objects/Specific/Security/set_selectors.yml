@@ -40,4 +40,5 @@
   - type: SetSelector
     possibleSets:
     - WardenWeaponSelectEnergyShotgun
+    - WardenWeaponSelectRapidTrenchgun
     maxSelectedSets: 1

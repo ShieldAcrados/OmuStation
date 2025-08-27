@@ -69,7 +69,7 @@
   name: selectable-set-warden-weapon-rapid-trenchgun-name
   description: selectable-set-warden-weapon-energy-shotgun-desc
   sprite:
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    sprite: _Omu/Objects/Weapons/Guns/Revolvers/VC-8.rsi # PLACEHOLDER
     state: base
   content:
   - EffectDutyWeaponPrint
