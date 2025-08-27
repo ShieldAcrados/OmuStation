@@ -85,3 +85,16 @@
 #  content:
 #  - EffectDutyWeaponPrint
 #  - ClothingHandsGlovesKravMaga
+
+# Head Of Security
+
+- type: selectableSet
+  id: HosLawbringerSet
+  name: selectable-set-hos-lawbringer-name
+  description: selectable-set-hos-lawbringer-desc
+  sprite:
+    sprite: _Omu/Objects/Weapons/Guns/Revolvers/VC-8.rsi # PLACEHOLDER
+    state: base
+  content:
+  - EffectHosWeaponPrint
+  - WeaponEnergyGunLawbringer

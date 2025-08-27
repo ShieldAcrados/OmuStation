@@ -41,6 +41,14 @@ selectable-set-warden-weapon-rapid-trenchgun-desc =
     the Energy Shotgun if used right.
     WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
+# Head Of Security
+
+selectable-set-hos-lawbringer-name = DT-12 "Lawbringer"
+selectable-set-hos-lawbringer-desc =
+    An incredibly versatile regenerating energy weapon, featuring several
+    different projectile configurations for various targets and needs!
+    WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
+
 # Deprecated
 
 selectable-set-warden-weapon-krav-maga-name = Krav Maga Gloves

@@ -21,3 +21,10 @@
   - type: EmitSoundOnSpawn
     sound: 
       path: /Audio/Machines/circuitprinter.ogg
+
+- type: entity
+  parent: EffectDutyWeaponPrint
+  id: EffectHosWeaponPrint
+  components:
+  - type: PointLight
+    color: "#530783"

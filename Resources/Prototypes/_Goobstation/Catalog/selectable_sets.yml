@@ -543,6 +543,7 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/HeadOfSecurity/smg.rsi
     state: icon
   content:
+  - EffectHosWeaponPrint # Omu
   - WeaponHeadOfSecuritySMG
 
 - type: selectableSet
@@ -553,6 +554,7 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/HeadOfSecurity/shotgun.rsi
     state: icon
   content:
+  - EffectHosWeaponPrint # Omu
   - WeaponHeadOfSecurityShotgun
 
 - type: selectableSet
@@ -563,6 +565,7 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/HeadOfSecurity/sniper.rsi
     state: icon
   content:
+  - EffectHosWeaponPrint # Omu
   - WeaponHeadOfSecuritySniper
 
 - type: selectableSet
@@ -573,6 +576,7 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/HeadOfSecurity/rifle.rsi
     state: icon
   content:
+  - EffectHosWeaponPrint # Omu
   - WeaponHeadOfSecurityRifle
 
 # Captain
