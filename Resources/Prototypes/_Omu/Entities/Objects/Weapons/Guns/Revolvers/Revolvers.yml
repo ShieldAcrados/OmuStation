@@ -35,3 +35,28 @@
     stealGroup: WeaponAntiqueLaser
   - type: GunSpreadModifier
     spread: 1.25
+
+- type: entity
+  name: \"RAPID\" Sawn-off Trenchgun
+  parent: VulcanEightRevolver
+  id: WeaponRevolverWardenRapidTrenchgun
+  components:
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 2
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+      - ShellShotgunHeavy
+    proto: ShellShotgunHighCaliber
+    capacity: 6
+    chambers: [True, True, True, True, True, True]
+    ammoSlots: [null, null, null, null, null, null]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
