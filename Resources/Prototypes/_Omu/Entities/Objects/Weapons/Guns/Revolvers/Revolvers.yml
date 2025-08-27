@@ -52,7 +52,7 @@
   parent: VulcanEightRevolver
   id: WeaponRevolverWardenRapidTrenchgun
   components:
-  - type: item
+  - type: Item
     size: Large
     shape:
     - 0,0,1,1
