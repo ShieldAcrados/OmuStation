@@ -112,7 +112,7 @@
   - MagazineShotgunIncendiary
   - MagazineBoxPistolIncendiary
   - MagazineBoxMagnumIncendiary
-  # - MagazineBoxLightRifleIncendiary # Goobstation - remove light rifle
+  - MagazineBoxLightRifleIncendiary # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
   - MagazineBoxRifleIncendiary
   # Goobstation R&D Console rework start
   position: 2,2
@@ -180,7 +180,7 @@
   - SpeedLoaderMagnumUranium
   - MagazineBoxPistolUranium
   - MagazineBoxMagnumUranium
-  # - MagazineBoxLightRifleUranium # Goobstation - remove light rifle
+  - MagazineBoxLightRifleUranium # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
   - MagazineBoxRifleUranium
   - BoxShotgunUranium
   - MagazineBoxShotgunUraniumHighCaliber # Goobstation

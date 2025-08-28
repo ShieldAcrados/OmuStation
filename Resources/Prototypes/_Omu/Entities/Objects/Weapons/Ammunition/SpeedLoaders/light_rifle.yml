@@ -40,19 +40,30 @@
     steps: 7
     zeroVisible: false
   - type: Appearance
-#  - type: Item
-#    inhandVisuals:
-#      left:
-#      - state: inhand-left-mag
-#      - state: inhand-left-ammo
-#      right:
-#      - state: inhand-right-mag
-#      - state: inhand-right-ammo
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-ammo
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-ammo
 
 - type: entity
   id: SpeedLoaderLightRifleRevolverLargeEmpty
   name: "large speed loader (.30 Rifle Any)"
   components:
   - type: BallisticAmmoProvider
-    proto:
+    proto: null
     capacity: 8
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false

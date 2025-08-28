@@ -124,8 +124,8 @@
   - MagazineBoxPistolUranium
   - MagazineBoxRifleIncendiary
   - MagazineBoxRifleUranium
-  - MagazineLightRifleIncendiary # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
-  - MagazineLightRifleUranium # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
+  # - MagazineLightRifleIncendiary # Goobstation - remove light rifle
+  # - MagazineLightRifleUranium # Goobstation - remove light rifle
   - MagazinePistolIncendiary
   - MagazinePistolUranium
   - MagazinePistolSubMachineGunIncendiary
