@@ -23,8 +23,8 @@
   content:
   - EffectDutyWeaponPrint
   - SecurityDutyRevolver
-  - SpeedLoaderLightRifle
-  - SpeedLoaderLightRifle
+  - SpeedLoaderLightRifleRevolverLarge
+  - SpeedLoaderLightRifleRevolverLarge
 
 - type: selectableSet
   id: DutyWeaponSelectSvalinn
