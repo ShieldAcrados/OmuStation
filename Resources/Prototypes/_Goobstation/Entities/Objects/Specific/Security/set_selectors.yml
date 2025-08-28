@@ -28,6 +28,6 @@
     maxSelectedSets: 1
   - type: Tag
     tags:
-    - HeadOfSecurityWeaponUndetermined
+    - TagHeadOfSecurityWeaponUndetermined
     - HighRiskItem
 

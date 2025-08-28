@@ -27,7 +27,7 @@
         ejectOnInteract: true
         whitelist:
           tags:
-          - HeadOfSecurityWeaponUndetermined
+          - TagHeadOfSecurityWeaponUndetermined
         ejectSound: /Audio/Machines/machine_switch.ogg
 
 - type: entity
@@ -38,4 +38,4 @@
   - type: ContainerFill
     containers:
       ItemCabinet:
-      - HeadOfSecurityWeaponUndetermined
+      - TagHeadOfSecurityWeaponUndetermined
