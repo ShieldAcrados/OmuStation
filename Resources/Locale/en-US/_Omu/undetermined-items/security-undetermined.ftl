@@ -6,15 +6,15 @@ selectable-set-duty-weapon-mk58-lethal-desc =
     Chambered in .35 auto, it comes with 2 magazines of lethal ammuniton.
     WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
-selectable-set-duty-weapon-svalinn-name = Salvinn Laser pistol
+selectable-set-duty-weapon-svalinn-name = Svalinn Laser pistol
 selectable-set-duty-weapon-svalinn-desc =
     A ridiculously cheap, shoddy laser pistol. So cheap your science department
     can make one no problem, but hey, it's... a bit of variety.. at least?
     Comes with 2 spare batteries, but you can use your own too!
     WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
-selectable-set-duty-weapon-Consistency-name = T8 "Consistency"
-selectable-set-duty-weapon-Consistency-desc =
+selectable-set-duty-weapon-consistency-name = T8 "Consistency"
+selectable-set-duty-weapon-consistency-desc =
     A stylishly red .30 caliber revolver! While it fires slower, the punch of a 
     .30 rifle round makes up for it if you can hit your shots!
     Comes with 2 spare 8-round speedloaders
