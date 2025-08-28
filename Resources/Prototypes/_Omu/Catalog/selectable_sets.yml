@@ -93,7 +93,7 @@
   name: selectable-set-hos-lawbringer-name
   description: selectable-set-hos-lawbringer-desc
   sprite:
-    sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi # PLACEHOLDER
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
     state: icon
   content:
   - EffectHosWeaponPrint
