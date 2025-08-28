@@ -48,3 +48,11 @@
 #      right:
 #      - state: inhand-right-mag
 #      - state: inhand-right-ammo
+
+- type: entity
+  id: SpeedLoaderLightRifleRevolverLargeEmpty
+  name: "large speed loader (.30 Rifle Any)"
+  components:
+  - type: BallisticAmmoProvider
+    proto:
+    capacity: 8

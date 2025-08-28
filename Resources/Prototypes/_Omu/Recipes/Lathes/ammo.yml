@@ -1,0 +1,13 @@
+- type: latheRecipe
+  parent: BaseEmptyAmmoRecipe
+  id: SpeedLoaderLightRifleRevolverLargeEmpty
+  result: SpeedLoaderLightRifleRevolverLargeEmpty
+  materials:
+    Steel: 40
+
+- type: latheRecipe
+  parent: BaseEmptyAmmoRecipe
+  id: SpeedLoaderLightRifleRevolverLarge
+  result: SpeedLoaderLightRifleRevolverLarge
+  materials:
+    Steel: 160

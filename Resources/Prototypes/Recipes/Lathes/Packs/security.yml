@@ -28,7 +28,7 @@
   id: SecurityPracticeStatic
   recipes:
   - BoxShotgunPractice
-  # - MagazineBoxLightRiflePractice # Goobstation - remove light rifle
+  - MagazineBoxLightRiflePractice # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
   - MagazineBoxMagnumPractice
   - MagazineBoxPistolPractice
   - MagazineBoxRiflePractice
@@ -47,7 +47,7 @@
   recipes:
   - BoxLethalshot
   - BoxShotgunSlug
-  # - MagazineBoxLightRifle # Goobstation - remove light rifle
+  - MagazineBoxLightRifle # Omu - Security Selectors, Sidegrades, and Reworks
   - MagazineBoxMagnum
   - MagazineBoxPistol
   - MagazineBoxRifle
@@ -67,6 +67,8 @@
   - SpeedLoaderMagnum
   - SpeedLoaderMagnumEmpty
   - ExplosivePayload
+  - SpeedLoaderLightRifleRevolverLarge # Omu - Security Selectors, Sidegrades, and Reworks
+  - SpeedLoaderLightRifleRevolverLargeEmpty # Omu - Security Selectors, Sidegrades, and Reworks
 
 - type: latheRecipePack
   id: SecurityWeaponsStatic
@@ -114,16 +116,16 @@
   - BoxShotgunIncendiary
   - BoxShotgunUranium
   - BoxShellTranquilizer
-  # - MagazineBoxLightRifleIncendiary # Goobstation - remove light rifle
-  # - MagazineBoxLightRifleUranium # Goobstation - remove light rifle
+  - MagazineBoxLightRifleIncendiary # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
+  - MagazineBoxLightRifleUranium # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
   - MagazineBoxMagnumIncendiary
   - MagazineBoxMagnumUranium
   - MagazineBoxPistolIncendiary
   - MagazineBoxPistolUranium
   - MagazineBoxRifleIncendiary
   - MagazineBoxRifleUranium
-  # - MagazineLightRifleIncendiary # Goobstation - remove light rifle
-  # - MagazineLightRifleUranium # Goobstation - remove light rifle
+  - MagazineLightRifleIncendiary # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
+  - MagazineLightRifleUranium # Omu - Readded light rifle for Security Selectors, Sidegrades, and Reworks
   - MagazinePistolIncendiary
   - MagazinePistolUranium
   - MagazinePistolSubMachineGunIncendiary
