@@ -12,7 +12,11 @@
   - type: AmmoCounter
   - type: Gun
     selectedMode: SemiAuto
+<<<<<<< HEAD
     fireRate: 3
+=======
+    fireRate: 1.5
+>>>>>>> master
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -34,6 +38,7 @@
   - type: StealTarget
     stealGroup: WeaponAntiqueLaser
   - type: GunSpreadModifier
+<<<<<<< HEAD
     spread: 1.25
   - type: AltFireMelee # copied from BaseWeaponPistol, Yw Cyg - Shield
     attackType: Heavy
@@ -73,10 +78,42 @@
     capacity: 6
     chambers: [True, True, True, True, True, True]
     ammoSlots: [null, null, null, null, null, null]
+=======
+    spread: 2
+
+- type: entity
+  name: T8 "Consistency" Revolver
+  parent: BaseWeaponRevolver
+  id: SecurityDutyRevolver
+  description: A high end, High capacity revolver for the discerning officer. It's even coated in security red! This revolver trades the throughput of a mk58 for not only style, but also stopping power. Loads .30 rifle.
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Weapons/Guns/Revolvers/T8.rsi
+    state: base
+  - type: Clothing
+    sprite: _Omu/Objects/Weapons/Guns/Revolvers/T8.rsi
+  - type: AmmoCounter
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 3
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeLightRifle
+    proto: CartridgeLightRifle
+    capacity: 8
+    chambers: [ True, True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null, null ]
+>>>>>>> master
     soundEject:
       path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+<<<<<<< HEAD
   - type: AltFireMelee # copied from BaseWeaponPistol
     attackType: Heavy
   - type: MeleeWeapon
@@ -87,3 +124,7 @@
     wideAnimationRotation: 90 # -90 if it takes bayonets (hits with muzzle) 90 if not (hits with butt)
     soundHit:
       collection: MetalThud # Goobstation ^
+=======
+  - type: StaticPrice
+    price: 1500
+>>>>>>> master
