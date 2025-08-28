@@ -31,7 +31,7 @@
 - type: entity
   id: WardenWeaponUndetermined
   name: DCD-W07
-  description: 
+  description: A much more capable fabricator than the S00, the DCD-W07 gives a selection of robust, powerful weaponry to defend the security department from threats interior and exterior.
   parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
   components:
   - type: Sprite

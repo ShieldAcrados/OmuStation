@@ -28,3 +28,5 @@
   components:
   - type: PointLight
     color: "#530783"
+    radius: 3
+    energy: 20
