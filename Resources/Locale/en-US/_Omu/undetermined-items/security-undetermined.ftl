@@ -15,7 +15,10 @@ selectable-set-duty-weapon-svalinn-desc =
 
 selectable-set-duty-weapon-Consistency-name = T8 "Consistency"
 selectable-set-duty-weapon-Consistency-desc =
-    guuuuuuuuh
+    A stylishly red .30 caliber revolver! While it fires slower, the punch of a 
+    .30 rifle round makes up for it if you can hit your shots!
+    Comes with 2 spare 8-round speedloaders
+    WARNING: UNIT WILL DROP PRODUCT ON FLOOR, APPROVE IN SECURE AREA
 
 # Brigmedic
 
