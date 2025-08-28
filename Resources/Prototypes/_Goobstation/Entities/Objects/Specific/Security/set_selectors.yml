@@ -26,3 +26,8 @@
     - HosShotgunSet
     - HosSniperSet
     maxSelectedSets: 1
+  - type: Tag
+    tags:
+    - HeadOfSecurityWeaponUndetermined
+    - HighRiskItem
+

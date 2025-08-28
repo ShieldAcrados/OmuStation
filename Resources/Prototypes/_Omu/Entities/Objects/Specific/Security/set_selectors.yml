@@ -10,6 +10,7 @@
   - type: SetSelector
     possibleSets:
     - DutyWeaponSelectMk58Lethal
+    - DutyWeaponSelectConsistency
     - DutyWeaponSelectSvalinn
     maxSelectedSets: 1
 

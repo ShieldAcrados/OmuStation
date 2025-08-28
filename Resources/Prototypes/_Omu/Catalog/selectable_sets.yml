@@ -14,6 +14,19 @@
   - MagazinePistol
 
 - type: selectableSet
+  id: DutyWeaponSelectConsistency
+  name: selectable-set-duty-weapon-Consistency-name
+  description: selectable-set-duty-weapon-Consistency-desc
+  sprite:
+    sprite: _Omu/Objects/Weapons/Guns/Revolvers/T8.rsi
+    state: base
+  content:
+  - EffectDutyWeaponPrint
+  - SecurityDutyRevolver
+  - SpeedLoaderLightRifle
+  - SpeedLoaderLightRifle
+
+- type: selectableSet
   id: DutyWeaponSelectSvalinn
   name: selectable-set-duty-weapon-svalinn-name
   description: selectable-set-duty-weapon-svalinn-desc
