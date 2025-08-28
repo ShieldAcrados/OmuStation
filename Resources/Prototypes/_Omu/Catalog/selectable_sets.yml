@@ -15,8 +15,8 @@
 
 - type: selectableSet
   id: DutyWeaponSelectConsistency
-  name: selectable-set-duty-weapon-Consistency-name
-  description: selectable-set-duty-weapon-Consistency-desc
+  name: selectable-set-duty-weapon-consistency-name
+  description: selectable-set-duty-weapon-consistency-desc
   sprite:
     sprite: _Omu/Objects/Weapons/Guns/Revolvers/T8.rsi
     state: base
