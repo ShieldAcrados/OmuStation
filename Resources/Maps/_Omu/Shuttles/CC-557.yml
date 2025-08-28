@@ -10285,8 +10285,6 @@ entities:
       pos: -4.5,11.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1297
   - uid: 1291
