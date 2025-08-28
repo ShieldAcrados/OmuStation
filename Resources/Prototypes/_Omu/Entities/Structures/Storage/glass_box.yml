@@ -38,4 +38,4 @@
   - type: ContainerFill
     containers:
       ItemCabinet:
-      - TagHeadOfSecurityWeaponUndetermined
+      - HeadOfSecurityWeaponUndetermined
