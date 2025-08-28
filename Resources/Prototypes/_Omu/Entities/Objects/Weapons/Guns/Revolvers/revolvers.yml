@@ -59,6 +59,7 @@
     whitelist:
       tags:
       - CartridgeLightRifle
+      - SpeedLoaderRifle
     proto: CartridgeLightRifle
     capacity: 8
     chambers: [ True, True, True, True, True, True, True, True ]
