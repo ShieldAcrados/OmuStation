@@ -52,6 +52,7 @@
 - type: entity
   id: SpeedLoaderLightRifleRevolverLargeEmpty
   name: "large speed loader (.30 Rifle Any)"
+  parent: SpeedLoaderLightRifleRevolverLarge
   components:
   - type: BallisticAmmoProvider
     proto: null
