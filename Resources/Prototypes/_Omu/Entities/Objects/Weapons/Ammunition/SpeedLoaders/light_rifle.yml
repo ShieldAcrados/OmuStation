@@ -67,3 +67,11 @@
     magState: base
     steps: 7
     zeroVisible: false
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-ammo
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-ammo
