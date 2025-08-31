@@ -111,3 +111,13 @@
   content:
   - EffectHosWeaponPrint
   - WeaponEnergyGunLawbringer
+
+- type: selectableSet
+  id: VoidsuitSelectorHeadOfSecurityParadeVoidsuit
+  name: selectable-set-headofsecurity-paradevoidsuit-name
+  description: selectable-set-headofsecurity-paradevoidsuit-desc
+  sprite:
+    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/hos-expi.rsi
+    state: icon
+  content:
+  - ClothingOuterHardsuitHeadOfSecurityExperimental
