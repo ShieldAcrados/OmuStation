@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/31/2025 18:50:05
-  entityCount: 2829
+  time: 09/01/2025 16:30:07
+  entityCount: 2846
 maps: []
 grids:
 - 1
@@ -104,6 +104,12 @@ entities:
         version: 2
         nodes:
         - node:
+            angle: -1.5707963267948966 rad
+            color: '#FFFFFFFF'
+            id: Arrows
+          decals:
+            100: 3.4438193,-40.623764
+        - node:
             color: '#FFFFFFFF'
             id: Arrows
           decals:
@@ -113,17 +119,18 @@ entities:
             color: '#FFFFFFFF'
             id: Arrows
           decals:
-            7: 4.5326204,-36.79905
             8: 9.004933,-42.03474
             11: -6.372381,-42.814533
             88: 1.7623322,-42.76088
+            101: 5.809161,-42.967514
+            102: 5.0856314,-37.01358
+            104: 5.0856314,-38.149
         - node:
             angle: 3.141592653589793 rad
             color: '#FFFFFFFF'
             id: Arrows
           decals:
             9: -0.83353114,-41.210606
-            13: -0.8604641,-42.96037
             91: 4.5709453,-39.774284
         - node:
             angle: 4.71238898038469 rad
@@ -131,7 +138,22 @@ entities:
             id: Arrows
           decals:
             10: -5.102418,-38.83034
-            89: 1.6944876,-40.82338
+        - node:
+            color: '#FFFFFFFF'
+            id: Bot
+          decals:
+            231: 8,-11
+            232: 8,-13
+            233: 8,-15
+            234: -8,-15
+            235: -8,-13
+            236: -8,-11
+        - node:
+            color: '#FFFF00FF'
+            id: Box
+          decals:
+            229: 7,-13
+            230: -7,-13
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -145,6 +167,14 @@ entities:
             id: Caution
           decals:
             56: 0,-47
+        - node:
+            color: '#FFFFFFFF'
+            id: Delivery
+          decals:
+            225: -7,-15
+            226: -7,-11
+            227: 7,-11
+            228: 7,-15
         - node:
             angle: -1.5707963267948966 rad
             color: '#FF0000FF'
@@ -187,12 +217,185 @@ entities:
           decals:
             18: 1,-18
         - node:
+            color: '#FF0000FF'
+            id: WarnCornerSmallGreyscaleNW
+          decals:
+            105: 5,-35
+            106: -5,-35
+            107: 6,-41
+            108: -6,-41
+            127: 7,-47
+            128: -7,-47
+            129: -4,-31
+            136: 4,-31
+            137: 10,-22
+            138: 10,-26
+            139: 4,-24
+            140: -4,-24
+            141: -10,-22
+            142: -10,-26
+            143: -4,-16
+            144: -4,-7
+            145: -4,-1
+            146: 4,-1
+            147: 4,-7
+            148: 4,6
+            149: -4,6
+            150: 1,-12
+            151: 1,-14
+            152: -1,-14
+            153: 0,-20
+            154: 9,-14
+            155: 9,-12
+            156: -9,-12
+            157: -9,-14
+            218: 4,-16
+        - node:
+            angle: 1.5707963267948966 rad
+            color: '#FF0000FF'
+            id: WarnCornerSmallGreyscaleNW
+          decals:
+            109: -6,-41
+            110: -5,-35
+            111: 5,-35
+            112: 6,-41
+            125: 7,-47
+            126: -7,-47
+            130: -4,-31
+            135: 4,-31
+            158: 4,-24
+            159: -4,-24
+            160: -10,-22
+            161: -10,-26
+            162: 10,-26
+            163: 10,-22
+            164: 9,-14
+            165: 9,-12
+            166: 1,-12
+            167: -1,-14
+            168: -9,-12
+            169: -9,-14
+            170: 4,-7
+            171: -4,-7
+            172: -4,-1
+            173: 4,-1
+            174: 4,6
+            175: -4,6
+            184: -4,-16
+            189: 0,-20
+            204: 1,-14
+            217: 4,-16
+        - node:
+            angle: 3.141592653589793 rad
+            color: '#FF0000FF'
+            id: WarnCornerSmallGreyscaleNW
+          decals:
+            113: 6,-41
+            114: -6,-41
+            115: 5,-35
+            116: -5,-35
+            123: 7,-47
+            124: -7,-47
+            131: -4,-31
+            134: 4,-31
+            176: -4,6
+            177: 4,6
+            178: 4,-1
+            179: -4,-1
+            180: -4,-7
+            181: 4,-7
+            182: 4,-16
+            183: -4,-16
+            185: -1,-14
+            186: 1,-14
+            187: 1,-12
+            188: 0,-20
+            190: -4,-24
+            191: 4,-24
+            192: 10,-26
+            193: 10,-22
+            194: -10,-22
+            195: -10,-26
+            207: -9,-14
+            208: -9,-12
+            209: 9,-12
+            210: 9,-14
+        - node:
+            angle: 4.71238898038469 rad
+            color: '#FF0000FF'
+            id: WarnCornerSmallGreyscaleNW
+          decals:
+            117: -5,-35
+            118: 5,-35
+            119: -6,-41
+            120: 6,-41
+            121: 7,-47
+            122: -7,-47
+            132: -4,-31
+            133: 4,-31
+            196: 10,-26
+            197: 10,-22
+            198: 4,-24
+            199: -4,-24
+            200: -10,-22
+            201: -10,-26
+            202: 0,-20
+            203: 1,-14
+            205: 1,-12
+            206: -1,-14
+            211: 9,-14
+            212: 9,-12
+            213: -9,-12
+            214: -9,-14
+            215: -4,-16
+            216: 4,-16
+            219: 4,-7
+            220: -4,-7
+            221: -4,-1
+            222: 4,-1
+            223: 4,6
+            224: -4,6
+        - node:
+            color: '#FFFFFFFF'
+            id: WarnCornerSmallNE
+          decals:
+            252: 7,-24
+            253: 11,-24
+            260: -9,-24
+        - node:
+            color: '#FFFFFFFF'
+            id: WarnCornerSmallNW
+          decals:
+            249: -7,-24
+            256: 9,-24
+            257: -11,-24
+        - node:
+            color: '#FFFFFFFF'
+            id: WarnCornerSmallSE
+          decals:
+            251: 7,-24
+            255: 11,-24
+            258: -9,-24
+        - node:
+            color: '#FFFFFFFF'
+            id: WarnCornerSmallSW
+          decals:
+            250: -7,-24
+            254: 9,-24
+            259: -11,-24
+        - node:
             color: '#FFFFFFFF'
             id: WarnLineE
           decals:
             20: -1,-15
             21: -1,-16
             22: -1,-17
+            239: -9,-23
+            240: -9,-25
+            245: 7,-23
+            246: 7,-25
+            247: 11,-23
+            248: 11,-25
         - node:
             color: '#FFFFFFFF'
             id: WarnLineS
@@ -202,6 +405,12 @@ entities:
             25: 1,-17
             26: 1,-12
             27: 1,-11
+            237: -11,-23
+            238: -11,-25
+            241: -7,-23
+            242: -7,-25
+            243: 9,-23
+            244: 9,-25
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSe
@@ -445,7 +654,8 @@ entities:
             0: 58912
             2: 8
           -1,-12:
-            0: 8113
+            0: 7985
+            1: 128
           -1,-11:
             0: 65532
           -1,-10:
@@ -453,7 +663,8 @@ entities:
           -1,-13:
             2: 52880
           0,-12:
-            0: 8113
+            0: 8081
+            1: 32
           0,-11:
             0: 65527
           0,-10:
@@ -573,25 +784,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-  - uid: 1238
-    mapInit: true
-    paused: true
-    components:
-    - type: MetaData
-      name: solution - food
-    - type: Transform
-      parent: 993
-    - type: Solution
-      solution:
-        maxVol: 1
-        name: food
-        reagents:
-        - data: []
-          ReagentId: Fiber
-          Quantity: 1
-    - type: ContainedSolution
-      containerName: food
-      container: 993
   - uid: 1280
     mapInit: true
     paused: true
@@ -611,14 +803,14 @@ entities:
     - type: ContainedSolution
       containerName: food
       container: 1279
-  - uid: 1373
+  - uid: 2834
     mapInit: true
     paused: true
     components:
     - type: MetaData
       name: solution - food
     - type: Transform
-      parent: 1255
+      parent: 2833
     - type: Solution
       solution:
         maxVol: 1
@@ -629,15 +821,15 @@ entities:
           Quantity: 1
     - type: ContainedSolution
       containerName: food
-      container: 1255
-  - uid: 1501
+      container: 2833
+  - uid: 2836
     mapInit: true
     paused: true
     components:
     - type: MetaData
       name: solution - food
     - type: Transform
-      parent: 1500
+      parent: 2835
     - type: Solution
       solution:
         maxVol: 1
@@ -648,7 +840,26 @@ entities:
           Quantity: 1
     - type: ContainedSolution
       containerName: food
-      container: 1500
+      container: 2835
+  - uid: 2838
+    mapInit: true
+    paused: true
+    components:
+    - type: MetaData
+      name: solution - food
+    - type: Transform
+      parent: 2837
+    - type: Solution
+      solution:
+        maxVol: 1
+        name: food
+        reagents:
+        - data: []
+          ReagentId: Fiber
+          Quantity: 1
+    - type: ContainedSolution
+      containerName: food
+      container: 2837
 - proto: AirAlarm
   entities:
   - uid: 36
@@ -1946,6 +2157,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: BoxBodyBag
+  entities:
+  - uid: 2846
+    components:
+    - type: Transform
+      pos: 7.680586,-27.806393
+      parent: 1
 - proto: BoxBottle
   entities:
   - uid: 863
@@ -5427,14 +5645,6 @@ entities:
     - type: Transform
       pos: 9.5,-16.5
       parent: 1
-- proto: ClosetWallEmergencyFilledRandom
-  entities:
-  - uid: 166
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5,3.5
-      parent: 1
 - proto: ClosetWallEmergencyN2FilledRandom
   entities:
   - uid: 168
@@ -5479,11 +5689,11 @@ entities:
       parent: 1
 - proto: ClosetWallFireFilledRandom
   entities:
-  - uid: 663
+  - uid: 1083
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: -1.5,-0.5
+      pos: -1.5,3.5
       parent: 1
 - proto: ClothingBeltChiefEngineerFilled
   entities:
@@ -6760,6 +6970,13 @@ entities:
     - type: Transform
       pos: 9.5,-29.5
       parent: 1
+- proto: EmergencyRollerBed
+  entities:
+  - uid: 2845
+    components:
+    - type: Transform
+      pos: 9.490059,-30.743324
+      parent: 1
 - proto: ERTSecurityUndeterminedWeapon
   entities:
   - uid: 420
@@ -7739,7 +7956,15 @@ entities:
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
+  - uid: 1242
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 3.5,-42.5
+      parent: 1
+    - type: AtmosPipeColor
+      color: '#FF1212FF'
   - uid: 1251
     components:
     - type: Transform
@@ -7785,7 +8010,7 @@ entities:
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1220
     components:
     - type: Transform
@@ -7794,7 +8019,7 @@ entities:
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1333
     components:
     - type: Transform
@@ -8683,14 +8908,6 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#B3A234FF'
-  - uid: 1167
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -2.5,-38.5
-      parent: 1
-    - type: AtmosPipeColor
-      color: '#008866FF'
   - uid: 1207
     components:
     - type: Transform
@@ -8702,11 +8919,10 @@ entities:
   - uid: 1233
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 3.5,-42.5
+      pos: -0.5,-40.5
       parent: 1
     - type: AtmosPipeColor
-      color: '#FF1212FF'
+      color: '#008866FF'
   - uid: 1244
     components:
     - type: Transform
@@ -8723,6 +8939,14 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#008866FF'
+  - uid: 1246
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 2.5,-42.5
+      parent: 1
+    - type: AtmosPipeColor
+      color: '#FF1212FF'
   - uid: 1247
     components:
     - type: Transform
@@ -8877,14 +9101,6 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#03FCD3FF'
-  - uid: 1242
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.5,-40.5
-      parent: 1
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
   - uid: 1243
     components:
     - type: Transform
@@ -10046,7 +10262,7 @@ entities:
       pos: 9.5,-38.5
       parent: 1
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1223
     components:
     - type: Transform
@@ -10054,7 +10270,7 @@ entities:
       pos: 10.5,-41.5
       parent: 1
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1231
     components:
     - type: Transform
@@ -10078,7 +10294,7 @@ entities:
       pos: 8.5,-41.5
       parent: 1
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1338
     components:
     - type: Transform
@@ -11262,7 +11478,7 @@ entities:
       pos: 9.5,-41.5
       parent: 1
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1997
     components:
     - type: Transform
@@ -11425,6 +11641,14 @@ entities:
       pipeLayer: Tertiary
     - type: AtmosPipeColor
       color: '#BB88FFFF'
+  - uid: 1209
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -2.5,-38.5
+      parent: 1
+    - type: AtmosPipeColor
+      color: '#008866FF'
   - uid: 1213
     components:
     - type: Transform
@@ -11437,16 +11661,18 @@ entities:
       pipeLayer: Tertiary
     - type: AtmosPipeColor
       color: '#BB88FFFF'
-  - uid: 1246
+  - uid: 1238
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,-40.5
+      rot: -1.5707963267948966 rad
+      pos: 3.5,-40.5
       parent: 1
     - type: GasPressurePump
       targetPressure: 4500
+    - type: AtmosPipeLayers
+      pipeLayer: Secondary
     - type: AtmosPipeColor
-      color: '#008866FF'
+      color: '#FF1212FF'
   - uid: 1278
     components:
     - type: Transform
@@ -11467,16 +11693,6 @@ entities:
       pipeLayer: Secondary
     - type: AtmosPipeColor
       color: '#990000FF'
-  - uid: 2242
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 2.5,-42.5
-      parent: 1
-    - type: GasPressurePump
-      targetPressure: 4500
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
   - uid: 2644
     components:
     - type: Transform
@@ -13434,25 +13650,25 @@ entities:
       currentLabel: CC-800X "Archangel" (Lobby)
 - proto: Igniter
   entities:
-  - uid: 1209
+  - uid: 166
     components:
     - type: Transform
-      pos: 8,-38
+      pos: 9.5,-38.5
       parent: 1
-  - uid: 1248
+  - uid: 663
     components:
     - type: Transform
-      pos: 8,-37
+      pos: 9.5,-36.5
       parent: 1
-  - uid: 1249
+  - uid: 993
     components:
     - type: Transform
-      pos: 9,-37
+      pos: 7.5,-36.5
       parent: 1
-  - uid: 1370
+  - uid: 1373
     components:
     - type: Transform
-      pos: 9,-38
+      pos: 7.5,-38.5
       parent: 1
 - proto: JanitorialTrolley
   entities:
@@ -13462,6 +13678,22 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 7.5,-19.5
       parent: 1
+- proto: JetpackVoidFilled
+  entities:
+  - uid: 2840
+    components:
+    - type: Transform
+      parent: 2839
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 2843
+    components:
+    - type: Transform
+      parent: 2842
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: Jukebox
   entities:
   - uid: 712
@@ -13698,7 +13930,7 @@ entities:
         1372:
         - - Pressed
           - Toggle
-  - uid: 1083
+  - uid: 1370
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -13706,16 +13938,7 @@ entities:
       parent: 1
     - type: DeviceLinkSource
       linkedPorts:
-        1248:
-        - - Pressed
-          - Trigger
-        1249:
-        - - Pressed
-          - Trigger
-        1370:
-        - - Pressed
-          - Trigger
-        1209:
+        2830:
         - - Pressed
           - Trigger
   - uid: 1445
@@ -15028,187 +15251,6 @@ entities:
     - type: InsideEntityStorage
 - proto: Paper
   entities:
-  - uid: 993
-    mapInit: true
-    paused: true
-    components:
-    - type: MetaData
-      name: CC-800X Startup Checklist
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.26852548,-37.53627
-      parent: 1
-    - type: Paper
-      stampState: paper_stamp-ce
-      stampedBy:
-      - stampedColor: '#C8B400FF'
-        stampedName: Central Command Engineering Department
-      content: >
-        [head=2]    ──────═════  [color=#1b487e][/head]◥[head=2]N[/head]◣[/color][head=2]  ═════──────[/head]
-
-        [head=2] ────════  [color=#009100][/head][head=3]Central Command[/head][/color][head=2]  ════────[/head]
-
-
-        [head=1]CC-800X STARTUP CHECKLIST[/head]
-
-        THE FOLLOWING TASKS MUST BE PREFORMED TO ENSURE ALL SHUTTLE SUBSYSTEMS ARE OPERATIONAL AND SUSTAINED WHILE THE SHIP IS OCCUPIED
-
-
-        1. Activate [bold]all pumps[/bold] within Atmospherics/Engineering
-
-        2. Activate the [bold][color=#0055cc]Distro Gas Mixer[/color][/bold]
-
-        3. Wait until the [bold][color=#3ab334]Control Pressure Pipe[/color][/bold] reaches [bold]4500kpa[/bold] (Check with Atmospheric console in SMES room or with gas analyzer in locker)
-
-        4. Once the control pipe reaches 4500kpa, activate the [bold][color=#ff5500]Burn Mix Gas Mixer[/color][/bold].
-
-        5. Wait for the burn chamber pressure to reach about 300kpa (checked with the air alarm adjacent to the window), then ignite the burn chamber with the [bold]yellow caution outlined button[/bold]. Ignition may take several attempts.
-
-
-        Once these procedures have been completed, the shuttle will remain powered indefinetly, and operations may begin.
-
-
-        [head=3]The Station Anchor, located in gravity, must be deactivated before shuttle can FTL or Move.[/head]
-      editingDisabled: True
-    - type: EmitSoundOnCollide
-      nextSound: -10574.7227586
-    - type: SolutionContainerManager
-      solutions: null
-      containers:
-      - food
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.25,-0.25
-            - 0.25,-0.25
-            - 0.25,0.25
-            - -0.25,0.25
-          mask:
-          - Impassable
-          - HighImpassable
-          layer: []
-          density: 20
-          hard: True
-          restitution: 0.3
-          friction: 0.2
-        flammable:
-          shape: !type:PhysShapeCircle
-            radius: 0.35
-            position: 0,0
-          mask:
-          - MidImpassable
-          - HighImpassable
-          - LowImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          layer: []
-          density: 1
-          hard: False
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        solution@food: !type:ContainerSlot
-          ent: 1238
-    - type: Forensics
-      residues: []
-      dNAs: []
-      fibers: []
-      fingerprints: []
-  - uid: 1255
-    mapInit: true
-    paused: true
-    components:
-    - type: MetaData
-      name: CC-800X Startup Checklist
-    - type: Transform
-      pos: 2.4889274,8.508785
-      parent: 1
-    - type: Paper
-      stampState: paper_stamp-ce
-      stampedBy:
-      - stampedColor: '#C8B400FF'
-        stampedName: Central Command Engineering Department
-      content: >
-        [head=2]    ──────═════  [color=#1b487e][/head]◥[head=2]N[/head]◣[/color][head=2]  ═════──────[/head]
-
-        [head=2] ────════  [color=#009100][/head][head=3]Central Command[/head][/color][head=2]  ════────[/head]
-
-
-        [head=1]CC-800X STARTUP CHECKLIST[/head]
-
-        THE FOLLOWING TASKS MUST BE PREFORMED TO ENSURE ALL SHUTTLE SUBSYSTEMS ARE OPERATIONAL AND SUSTAINED WHILE THE SHIP IS OCCUPIED
-
-
-        1. Activate [bold]all pumps[/bold] within Atmospherics/Engineering
-
-        2. Activate the [bold][color=#0055cc]Distro Gas Mixer[/color][/bold]
-
-        3. Wait until the [bold][color=#3ab334]Control Pressure Pipe[/color][/bold] reaches [bold]4500kpa[/bold] (Check with Atmospheric console in SMES room or with gas analyzer in locker)
-
-        4. Once the control pipe reaches 4500kpa, activate the [bold][color=#ff5500]Burn Mix Gas Mixer[/color][/bold].
-
-        5. Wait for the burn chamber pressure to reach about 300kpa (checked with the air alarm adjacent to the window), then ignite the burn chamber with the [bold]yellow caution outlined button[/bold]. Ignition may take several attempts.
-
-
-        Once these procedures have been completed, the shuttle will remain powered indefinetly, and operations may begin.
-
-
-        [head=3]The Station Anchor, located in gravity, must be deactivated before shuttle can FTL or Move.[/head]
-      editingDisabled: True
-    - type: EmitSoundOnCollide
-      nextSound: -10574.7227586
-    - type: SolutionContainerManager
-      solutions: null
-      containers:
-      - food
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.25,-0.25
-            - 0.25,-0.25
-            - 0.25,0.25
-            - -0.25,0.25
-          mask:
-          - Impassable
-          - HighImpassable
-          layer: []
-          density: 20
-          hard: True
-          restitution: 0.3
-          friction: 0.2
-        flammable:
-          shape: !type:PhysShapeCircle
-            radius: 0.35
-            position: 0,0
-          mask:
-          - MidImpassable
-          - HighImpassable
-          - LowImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          layer: []
-          density: 1
-          hard: False
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        solution@food: !type:ContainerSlot
-          ent: 1373
-    - type: Forensics
-      residues: []
-      dNAs: []
-      fibers: []
-      fingerprints: []
   - uid: 1279
     mapInit: true
     paused: true
@@ -15280,21 +15322,21 @@ entities:
       dNAs: []
       fibers: []
       fingerprints: []
-  - uid: 1500
+  - uid: 2833
     mapInit: true
     paused: true
     components:
     - type: MetaData
       name: CC-800X Startup Checklist
     - type: Transform
-      pos: 0.50307405,1.4778061
+      pos: 0.5078182,1.5136409
       parent: 1
     - type: Paper
       stampState: paper_stamp-ce
       stampedBy:
       - stampedColor: '#C8B400FF'
         stampedName: Central Command Engineering Department
-      content: >
+      content: >-
         [head=2]    ──────═════  [color=#1b487e][/head]◥[head=2]N[/head]◣[/color][head=2]  ═════──────[/head]
 
         [head=2] ────════  [color=#009100][/head][head=3]Central Command[/head][/color][head=2]  ════────[/head]
@@ -15313,7 +15355,7 @@ entities:
 
         4. Once the control pipe reaches 4500kpa, activate the [bold][color=#ff5500]Burn Mix Gas Mixer[/color][/bold].
 
-        5. Wait for the burn chamber pressure to reach about 300kpa (checked with the air alarm adjacent to the window), then ignite the burn chamber with the [bold]yellow caution outlined button[/bold]. Ignition may take several attempts.
+        5. Wait for the burn chamber pressure to reach about 300kpa (checked with the air alarm adjacent to the window), then ignite the burn chamber with the [bold]yellow caution outlined button[/bold]. [bold]Proper ignition may take several attempts[/bold], ensure the entire chamber starts fully burning for [bold]at least 3 seconds.[/bold]
 
 
         Once these procedures have been completed, the shuttle will remain powered indefinetly, and operations may begin.
@@ -15322,7 +15364,7 @@ entities:
         [head=3]The Station Anchor, located in gravity, must be deactivated before shuttle can FTL or Move.[/head]
       editingDisabled: True
     - type: EmitSoundOnCollide
-      nextSound: -10574.7227586
+      nextSound: -2522.2308111
     - type: SolutionContainerManager
       solutions: null
       containers:
@@ -15364,7 +15406,188 @@ entities:
     - type: ContainerContainer
       containers:
         solution@food: !type:ContainerSlot
-          ent: 1501
+          ent: 2834
+    - type: Forensics
+      residues: []
+      dNAs: []
+      fibers: []
+      fingerprints: []
+  - uid: 2835
+    mapInit: true
+    paused: true
+    components:
+    - type: MetaData
+      name: CC-800X Startup Checklist
+    - type: Transform
+      pos: 2.478033,8.544891
+      parent: 1
+    - type: Paper
+      stampState: paper_stamp-ce
+      stampedBy:
+      - stampedColor: '#C8B400FF'
+        stampedName: Central Command Engineering Department
+      content: >-
+        [head=2]    ──────═════  [color=#1b487e][/head]◥[head=2]N[/head]◣[/color][head=2]  ═════──────[/head]
+
+        [head=2] ────════  [color=#009100][/head][head=3]Central Command[/head][/color][head=2]  ════────[/head]
+
+
+        [head=1]CC-800X STARTUP CHECKLIST[/head]
+
+        THE FOLLOWING TASKS MUST BE PREFORMED TO ENSURE ALL SHUTTLE SUBSYSTEMS ARE OPERATIONAL AND SUSTAINED WHILE THE SHIP IS OCCUPIED
+
+
+        1. Activate [bold]all pumps[/bold] within Atmospherics/Engineering
+
+        2. Activate the [bold][color=#0055cc]Distro Gas Mixer[/color][/bold]
+
+        3. Wait until the [bold][color=#3ab334]Control Pressure Pipe[/color][/bold] reaches [bold]4500kpa[/bold] (Check with Atmospheric console in SMES room or with gas analyzer in locker)
+
+        4. Once the control pipe reaches 4500kpa, activate the [bold][color=#ff5500]Burn Mix Gas Mixer[/color][/bold].
+
+        5. Wait for the burn chamber pressure to reach about 300kpa (checked with the air alarm adjacent to the window), then ignite the burn chamber with the [bold]yellow caution outlined button[/bold]. [bold]Proper ignition may take several attempts[/bold], ensure the entire chamber starts fully burning for [bold]at least 3 seconds.[/bold]
+
+
+        Once these procedures have been completed, the shuttle will remain powered indefinetly, and operations may begin.
+
+
+        [head=3]The Station Anchor, located in gravity, must be deactivated before shuttle can FTL or Move.[/head]
+      editingDisabled: True
+    - type: EmitSoundOnCollide
+      nextSound: -2522.2308111
+    - type: SolutionContainerManager
+      solutions: null
+      containers:
+      - food
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.25,-0.25
+            - 0.25,-0.25
+            - 0.25,0.25
+            - -0.25,0.25
+          mask:
+          - Impassable
+          - HighImpassable
+          layer: []
+          density: 20
+          hard: True
+          restitution: 0.3
+          friction: 0.2
+        flammable:
+          shape: !type:PhysShapeCircle
+            radius: 0.35
+            position: 0,0
+          mask:
+          - MidImpassable
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          layer: []
+          density: 1
+          hard: False
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        solution@food: !type:ContainerSlot
+          ent: 2836
+    - type: Forensics
+      residues: []
+      dNAs: []
+      fibers: []
+      fingerprints: []
+  - uid: 2837
+    mapInit: true
+    paused: true
+    components:
+    - type: MetaData
+      name: CC-800X Startup Checklist
+    - type: Transform
+      rot: -3.141592653589793 rad
+      pos: 0.32098827,-37.57707
+      parent: 1
+    - type: Paper
+      stampState: paper_stamp-ce
+      stampedBy:
+      - stampedColor: '#C8B400FF'
+        stampedName: Central Command Engineering Department
+      content: >-
+        [head=2]    ──────═════  [color=#1b487e][/head]◥[head=2]N[/head]◣[/color][head=2]  ═════──────[/head]
+
+        [head=2] ────════  [color=#009100][/head][head=3]Central Command[/head][/color][head=2]  ════────[/head]
+
+
+        [head=1]CC-800X STARTUP CHECKLIST[/head]
+
+        THE FOLLOWING TASKS MUST BE PREFORMED TO ENSURE ALL SHUTTLE SUBSYSTEMS ARE OPERATIONAL AND SUSTAINED WHILE THE SHIP IS OCCUPIED
+
+
+        1. Activate [bold]all pumps[/bold] within Atmospherics/Engineering
+
+        2. Activate the [bold][color=#0055cc]Distro Gas Mixer[/color][/bold]
+
+        3. Wait until the [bold][color=#3ab334]Control Pressure Pipe[/color][/bold] reaches [bold]4500kpa[/bold] (Check with Atmospheric console in SMES room or with gas analyzer in locker)
+
+        4. Once the control pipe reaches 4500kpa, activate the [bold][color=#ff5500]Burn Mix Gas Mixer[/color][/bold].
+
+        5. Wait for the burn chamber pressure to reach about 300kpa (checked with the air alarm adjacent to the window), then ignite the burn chamber with the [bold]yellow caution outlined button[/bold]. [bold]Proper ignition may take several attempts[/bold], ensure the entire chamber starts fully burning for [bold]at least 3 seconds.[/bold]
+
+
+        Once these procedures have been completed, the shuttle will remain powered indefinetly, and operations may begin.
+
+
+        [head=3]The Station Anchor, located in gravity, must be deactivated before shuttle can FTL or Move.[/head]
+      editingDisabled: True
+    - type: EmitSoundOnCollide
+      nextSound: -2522.2308111
+    - type: SolutionContainerManager
+      solutions: null
+      containers:
+      - food
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.25,-0.25
+            - 0.25,-0.25
+            - 0.25,0.25
+            - -0.25,0.25
+          mask:
+          - Impassable
+          - HighImpassable
+          layer: []
+          density: 20
+          hard: True
+          restitution: 0.3
+          friction: 0.2
+        flammable:
+          shape: !type:PhysShapeCircle
+            radius: 0.35
+            position: 0,0
+          mask:
+          - MidImpassable
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          layer: []
+          density: 1
+          hard: False
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        solution@food: !type:ContainerSlot
+          ent: 2838
     - type: Forensics
       residues: []
       dNAs: []
@@ -16154,7 +16377,7 @@ entities:
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
   - uid: 1250
     components:
     - type: Transform
@@ -16164,7 +16387,7 @@ entities:
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
-      color: '#990000FF'
+      color: '#FFFF00FF'
 - proto: Rack
   entities:
   - uid: 2205
@@ -17041,6 +17264,120 @@ entities:
         943:
         - - Timer
           - Off
+  - uid: 1248
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 7.5,-39.5
+      parent: 1
+    - type: SignalTimer
+      delay: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        1249:
+        - - Timer
+          - Trigger
+        1373:
+        - - Timer
+          - Trigger
+        993:
+        - - Timer
+          - Trigger
+        663:
+        - - Timer
+          - Trigger
+        166:
+        - - Timer
+          - Trigger
+  - uid: 1249
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,-39.5
+      parent: 1
+    - type: SignalTimer
+      delay: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        1255:
+        - - Timer
+          - Trigger
+        1373:
+        - - Timer
+          - Trigger
+        993:
+        - - Timer
+          - Trigger
+        663:
+        - - Timer
+          - Trigger
+        166:
+        - - Timer
+          - Trigger
+  - uid: 1255
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,-39.5
+      parent: 1
+    - type: SignalTimer
+      delay: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        166:
+        - - Timer
+          - Trigger
+        1373:
+        - - Timer
+          - Trigger
+        993:
+        - - Timer
+          - Trigger
+        663:
+        - - Timer
+          - Trigger
+  - uid: 2830
+    components:
+    - type: Transform
+      pos: 7.5,-35.5
+      parent: 1
+    - type: SignalTimer
+      delay: 0
+    - type: DeviceLinkSource
+      linkedPorts:
+        2831:
+        - - Timer
+          - Trigger
+        1248:
+        - - Timer
+          - Trigger
+  - uid: 2831
+    components:
+    - type: Transform
+      pos: 8.5,-35.5
+      parent: 1
+    - type: SignalTimer
+      delay: 4
+    - type: DeviceLinkSource
+      linkedPorts:
+        2832:
+        - - Timer
+          - Trigger
+        1248:
+        - - Timer
+          - Trigger
+  - uid: 2832
+    components:
+    - type: Transform
+      pos: 9.5,-35.5
+      parent: 1
+    - type: SignalTimer
+      delay: 4
+    - type: DeviceLinkSource
+      linkedPorts:
+        1248:
+        - - Timer
+          - Trigger
 - proto: SignArmory
   entities:
   - uid: 833
@@ -17074,6 +17411,18 @@ entities:
     - type: Transform
       pos: -8.5,-32.5
       parent: 1
+- proto: SignBridge
+  entities:
+  - uid: 1500
+    components:
+    - type: Transform
+      pos: 3.5,1.5
+      parent: 1
+  - uid: 1501
+    components:
+    - type: Transform
+      pos: -2.5,1.5
+      parent: 1
 - proto: SignDangerMed
   entities:
   - uid: 665
@@ -17100,6 +17449,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -4.5,-33.5
       parent: 1
+- proto: SignEVA
+  entities:
+  - uid: 2844
+    components:
+    - type: Transform
+      pos: 1.5,-44.5
+      parent: 1
 - proto: SignGravity
   entities:
   - uid: 785
@@ -17116,6 +17472,19 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-33.5
+      parent: 1
+- proto: SignHead
+  entities:
+  - uid: 1167
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-0.5
+      parent: 1
+  - uid: 2242
+    components:
+    - type: Transform
+      pos: 2.5,-0.5
       parent: 1
 - proto: SignMagneticsMed
   entities:
@@ -17153,6 +17522,11 @@ entities:
     components:
     - type: Transform
       pos: -6.5,-25.5
+      parent: 1
+  - uid: 2841
+    components:
+    - type: Transform
+      pos: 1.5,-47.5
       parent: 1
 - proto: SignVault
   entities:
@@ -17453,6 +17827,74 @@ entities:
       currentLabel: ENGINEERING
     - type: NameModifier
       baseName: suit storage unit
+  - uid: 2839
+    components:
+    - type: Transform
+      pos: 1.5,-46.5
+      parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 2840
+  - uid: 2842
+    components:
+    - type: Transform
+      pos: -0.5,-46.5
+      parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 2843
 - proto: SuitStorageResponsoryJanitorial
   entities:
   - uid: 393
