@@ -1,5 +1,57 @@
 - type: entity
   parent: BaseNFFlatpack
+  id: OreBoxFlatpack
+  name: ore box flatpack
+  description: A flatpack used for constructing an ore box.
+  components:
+  - type: Flatpack
+    entity: OreBox
+  - type: StaticPrice
+    price: 500
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Glass: 30
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: MaterialBoxFlatpack
+  name: construction box flatpack
+  description: A flatpack used for constructing a construction box.
+  components:
+  - type: Flatpack
+    entity: ConstructionBox
+  - type: StaticPrice
+    price: 500
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Glass: 30
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: TegCirculatorFlatpack
+  name: TEG circulator flatpack
+  description: A flatpack used for constructing a TEG circulator.
+  components:
+  - type: Flatpack
+    entity: TegCirculator
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: TegCenterFlatpack
+  name: TEG center flatpack
+  description: A flatpack used for constructing a TEG center.
+  components:
+  - type: Flatpack
+    entity: TegCenter
+  - type: StaticPrice
+    price: 2000
+
+- type: entity
+  parent: BaseNFFlatpack
   id: GaslockFrameFlatpack
   name: portable gaslock flatpack
   description: A flatpack used for constructing a portable gaslock.
