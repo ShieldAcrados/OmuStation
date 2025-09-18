@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseNFFlatpack
+  id: GaslockFrameFlatpack
+  name: portable gaslock flatpack
+  description: A flatpack used for constructing a portable gaslock.
+  components:
+  - type: Flatpack
+    entity: GaslockFrame
+  - type: StaticPrice
+    price: 300
