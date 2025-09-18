@@ -32,5 +32,29 @@ public sealed partial class RadarConsoleComponent : Component
     /// If true, the radar will be centered on the entity. If not - on the grid on which it is located.
     /// </summary>
     [DataField]
+
+    // Omu Mono port below
     public bool FollowEntity = false;
+
+    // Frontier: ghost radar restrictions
+    /// <summary>
+    /// If true, the radar will be centered on the entity. If not - on the grid on which it is located.
+    /// </summary>
+    [DataField]
+    public float? MaxIffRange = null;
+
+    /// <summary>
+    /// If true, the radar will not show the coordinates of objects on hover
+    /// </summary>
+    [DataField]
+    public bool HideCoords = false;
+    // End Frontier
+
+    // <Mono>
+    [DataField]
+    public bool Pannable = false;
+
+    [DataField]
+    public bool RelativePanning = false;
+    // </Mono>
 }
