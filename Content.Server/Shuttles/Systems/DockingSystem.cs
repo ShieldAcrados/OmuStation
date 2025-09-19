@@ -58,6 +58,7 @@ using Content.Server.Shuttles.Events;
 using Content.Shared.Doors;
 using Content.Shared.Doors.Components;
 using Content.Shared.Popups;
+using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Events;
 using Content.Shared.Shuttles.Systems;
 using Robust.Shared.Map;
@@ -108,6 +109,7 @@ namespace Content.Server.Shuttles.Systems
             // in which case I would also add their subs here.
             SubscribeLocalEvent<ShuttleConsoleComponent, DockRequestMessage>(OnRequestDock);
             SubscribeLocalEvent<ShuttleConsoleComponent, UndockRequestMessage>(OnRequestUndock);
+            SubscribeLocalEvent<ShuttleConsoleComponent, UndockAllRequestMessage>(OnRequestUndockAll);
         }
 
         public void UndockDocks(EntityUid gridUid)
@@ -452,6 +454,14 @@ namespace Content.Server.Shuttles.Systems
                 return;
             }
 
+            // Frontier: ensure dock initiator isn't receive only.
+            if (ourDockComp.ReceiveOnly)
+            {
+                _popup.PopupCursor(Loc.GetString("shuttle-console-dock-fail"));
+                return;
+            }
+            // End Frontier
+
             // Cheating?
             if (!TryComp(ourDock, out TransformComponent? xformA) ||
                 xformA.GridUid != shuttleUid)
@@ -493,6 +503,11 @@ namespace Content.Server.Shuttles.Systems
                 return false;
             }
 
+            // Frontier: mask docking types
+            if ((dockA.Comp.DockType & dockB.Comp.DockType) == DockType.None)
+                return false;
+            // End Frontier
+
             var xformA = Transform(dockA);
             var xformB = Transform(dockB);
 
@@ -504,6 +519,38 @@ namespace Content.Server.Shuttles.Systems
 
             return CanDock(new MapCoordinates(worldPosA, xformA.MapID), worldRotA,
                 new MapCoordinates(worldPosB, xformB.MapID), worldRotB);
+        }
+
+        private void OnRequestUndockAll(EntityUid uid, ShuttleConsoleComponent component, UndockAllRequestMessage args)
+        {
+            if (args.DockEntities.Count == 0)
+                return;
+
+            var undockedAny = false;
+
+            foreach (var dockEntity in args.DockEntities)
+            {
+                if (!TryGetEntity(dockEntity, out var dockEnt) ||
+                    !TryComp(dockEnt, out DockingComponent? dockComp))
+                {
+                    continue;
+                }
+
+                var dock = (dockEnt.Value, dockComp);
+
+                if (!CanUndock(dock))
+                {
+                    continue;
+                }
+
+                Undock(dock);
+                undockedAny = true;
+            }
+
+            if (!undockedAny)
+            {
+                _popup.PopupCursor(Loc.GetString("shuttle-console-undock-fail"));
+            }
         }
     }
 }
