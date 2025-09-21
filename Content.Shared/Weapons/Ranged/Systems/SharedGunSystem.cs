@@ -782,6 +782,9 @@ public abstract partial class SharedGunSystem : EntitySystem
 
     protected abstract void CreateEffect(EntityUid gunUid, MuzzleFlashEvent message, EntityUid? user = null);
 
+    //Spongebob KILL EVERYONE shellphone image but EVERYONE is "monocoders" goes here -ShieldAcrados
+    public abstract void PlayImpactSound(EntityUid otherEntity, DamageSpecifier? modifiedDamage, SoundSpecifier? weaponSound, bool forceWeaponSound);
+
     /// <summary>
     /// Used for animated effects on the client.
     /// </summary>

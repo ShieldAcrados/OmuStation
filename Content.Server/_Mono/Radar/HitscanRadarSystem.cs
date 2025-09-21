@@ -4,8 +4,8 @@
 // SPDX-License-Identifier: MIT
 
 using System.Numerics;
-using Content.Shared.Weapons.Hitscan.Components;
-using Content.Shared.Weapons.Hitscan.Events;
+using Content.Shared._Mono.Weapons.Hitscan.Components;
+using Content.Shared._Mono.Weapons.Hitscan.Events;
 using Robust.Shared.Map;
 using Robust.Shared.Spawners;
 

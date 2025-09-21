@@ -42,6 +42,7 @@ using Content.Client.Weapons.Ranged.Components;
 using Content.Shared._Goobstation.Heretic.Components;
 using Content.Shared.Camera;
 using Content.Shared.CombatMode;
+using Content.Shared.Damage;
 using Content.Shared.Mech.Components; // Goobstation
 using Content.Shared.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
@@ -54,6 +55,7 @@ using Robust.Client.Input;
 using Robust.Client.Player;
 using Robust.Client.State;
 using Robust.Shared.Animations;
+using Robust.Shared.Audio;
 using Robust.Shared.Input;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -450,4 +452,7 @@ public sealed partial class GunSystem : SharedGunSystem
         _animPlayer.Stop(gunUid, uidPlayer, "muzzle-flash-light");
         _animPlayer.Play((gunUid, uidPlayer), animTwo, "muzzle-flash-light");
     }
+
+    //I hate monocoders so fucking much bro you would not BELIVE how bad these mfs are at documenting/commenting changes -ShieldAcrados
+    public override void PlayImpactSound(EntityUid otherEntity, DamageSpecifier? modifiedDamage, SoundSpecifier? weaponSound, bool forceWeaponSound) {}
 }
