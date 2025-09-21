@@ -73,8 +73,9 @@ public sealed class VesselPrototype : IPrototype, IInheritingPrototype
     /// <summary>
     ///     The shipyard listing that the vessel should be in. (e.g. Civilian, Syndicate, Contraband etc.)
     /// </summary>
-    [DataField(required: true)]
-    public ShipyardConsoleUiKey Group = ShipyardConsoleUiKey.Shipyard;
+    //[DataField(required: true)]
+    //public ShipyardConsoleUiKey Group = ShipyardConsoleUiKey.Shipyard;
+    //commented out because we don't need shipyardconsole for the monolith guns -ShieldAcrados
 
     /// <summary>
     ///     The purpose of the vessel. (e.g. Service, Cargo, Engineering etc.)

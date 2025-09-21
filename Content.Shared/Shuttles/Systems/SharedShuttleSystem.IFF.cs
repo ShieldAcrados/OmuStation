@@ -92,4 +92,18 @@ public abstract partial class SharedShuttleSystem
         Dirty(gridUid, component);
         UpdateIFFInterfaces(gridUid, component);
     }
+
+    // Frontier: POI IFF protection
+    [PublicAPI]
+    public void SetIFFReadOnly(EntityUid gridUid, bool readOnly, IFFComponent? component = null)
+    {
+        if (!Resolve(gridUid, ref component, false))
+            return;
+
+        if (component.ReadOnly == readOnly)
+            return;
+
+        component.ReadOnly = readOnly;
+    }
+    // End Frontier
 }
