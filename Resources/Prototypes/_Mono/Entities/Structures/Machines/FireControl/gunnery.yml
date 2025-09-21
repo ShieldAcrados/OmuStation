@@ -50,8 +50,9 @@
       machine_parts: !type:Container
   - type: ExaminableBattery
   - type: BatterySelfRecharger
-  - type: PirateBountyItem
-    id: GunneryServer
+  # Yeah my ass aint porting allat -ShieldAcrados
+  #- type: PirateBountyItem
+  #  id: GunneryServer
   - type: StaticPrice
     price: 200
 
