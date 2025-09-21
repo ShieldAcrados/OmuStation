@@ -79,6 +79,13 @@ namespace Content.Server.Shuttles.Components
         /// </summary>
         [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
         public TimeSpan NextFire = TimeSpan.Zero;
+
+        // Mono
+        /// <summary>
+        ///     If we have a <see cref="ThermalSignatureComponent">, heat signature output per thrust while working.
+        /// </summary>
+        [DataField]
+        public float HeatSignatureRatio = 40f;
     }
 
     public enum ThrusterType
