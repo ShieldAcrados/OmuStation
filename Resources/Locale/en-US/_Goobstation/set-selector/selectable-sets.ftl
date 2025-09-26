@@ -172,9 +172,8 @@ selectable-set-ert-ballistic-description =
 
 selectable-set-ert-pulse-name = pulse set
 selectable-set-ert-pulse-description =
-    Running out of ammo is the worst thing that could happen
-    in a firefight.
-    Includes: A modified pulse carbine.
+    Running won't save you when your rounds fly at lightspeed.
+    Includes: A pulse carbine.
     EG-4 revolver, pulse cells.
 
 # Voidsuit selectors

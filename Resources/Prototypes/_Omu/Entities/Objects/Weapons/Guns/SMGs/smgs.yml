@@ -1,0 +1,8 @@
+- type: entity
+  id: WeaponSubMachineGunC20rCentComm
+  parent: [ WeaponSubMachineGunC20r, BaseCentcommContraband ]
+  suffix: Centcomm
+  description: A classic and widespread submachine gun, this one bears the markings and  of 
+  components:
+  - type: Contraband
+    severity: Major

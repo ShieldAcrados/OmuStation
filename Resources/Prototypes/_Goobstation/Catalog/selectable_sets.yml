@@ -442,7 +442,7 @@
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     state: icon
   content:
-    - WeaponPulseCarbineAdvanced
+    - WeaponPulseCarbine # Omu - Ert Rework
     - WeaponEnergyRevolver
     - EnergySpeedloaderPulse
     - EnergySpeedloaderPulse

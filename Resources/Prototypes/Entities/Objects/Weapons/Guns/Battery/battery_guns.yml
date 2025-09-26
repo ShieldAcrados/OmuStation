@@ -537,7 +537,7 @@
     fireCost: 200
   - type: AmmoSelector # Goobstation - Start
     prototypes:
-    - Pulse
+    - LightPulse # Omu - ERT Rework
     - StunPulse
   - type: UserInterface
     interfaces:
