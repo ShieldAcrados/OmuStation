@@ -172,7 +172,7 @@ selectable-set-ert-ballistic-description =
 
 selectable-set-ert-pulse-name = pulse set
 selectable-set-ert-pulse-description =
-    Running won't save you when your rounds fly at lightspeed.
+    Running won't save them when your rounds fly at lightspeed.
     Includes: A pulse carbine.
     EG-4 revolver, pulse cells.
 
